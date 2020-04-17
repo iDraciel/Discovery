@@ -1,26 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import Game from './Games/Games.js';
 import './App.css';
+import Footer from './footer/Footer.js';
+import Events from './Events/Events.js';
+import Logo from './Logo.png';
+class App extends Component{
 
-function App() {
+  render() {
+    const mystyle={
+  textDecoration:"none",
+  fontFamily:'Inter',
+  color:" rgba(255, 255, 255, 1)"
+    };
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="navigation">
+    <nav className="nav-bar">
+      <nav className="nav-pic">
+        <img src={Logo} alt="logo" className="nav-logo"/>
+      <ul className="nav-items">
+        <li><a style={mystyle} href="Games-section">Top Games</a></li>
+        <li><a  style={mystyle} href="#Events-section">Live Events</a></li>
+      </ul>
+    </nav>
+    </nav>
+  </div>
+      <h1><b>TOP GAMES</b></h1>
+      <section id="Games-section">
+      <Game />
+      </section>
+      <h1><b>LIVE EVENTS</b></h1>
+     <section id="Events-section">
+     <Events />
+     </section>
+     <Footer />
     </div>
+  
   );
 }
-
+}
 export default App;
