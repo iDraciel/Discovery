@@ -13,11 +13,14 @@
      font-weight: 500;
      line-height: 1.42857143;
    }
+   
   /* Nav bar */
+  /*
   .navigation{
     margin-top:0;
-    margin-left: 73px;
-    margin-right: 93px;
+    margin-left: 0px;
+    margin-right: 0px;
+
   }
 @media screen and (max-width:768px){
   .navigation{
@@ -70,6 +73,7 @@ margin-top: none;
     }
   
   }
+  */
   /* Header CSS */
   
 h1{

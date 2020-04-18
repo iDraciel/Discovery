@@ -12,11 +12,11 @@
     display:grid;
     width:10px;
     height:30px;
-    margin-left: 70px;
+    margin-left: 160px;
     margin-top:30px;
   }
   .f-right{
-    margin-right:60px;
+    margin-right:120px;
     float:right;
     display:grid;
   }
@@ -36,7 +36,7 @@
     font-size: 18px;
     margin-left: 62px;
   }
-  @media screen and (max-width:600px) {
+  @media screen and (max-width:768px) {
     .footer-bar{
       padding-bottom:10px;
     }

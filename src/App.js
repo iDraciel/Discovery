@@ -1,8 +1,15 @@
 import React, { Component } from 'react';
-import Game from './Games/Games.js';
 import './App.css';
+import Home from "./Home/Home.js";
 import Footer from './footer/Footer.js';
-import Events from './Events/Events.js';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
 class App extends Component{
 
   render() {
@@ -16,26 +23,37 @@ class App extends Component{
     <div className="App">
       <div className="navigation">
     <nav className="nav-bar">
-     
+     <Router>
       <ul className="nav-items">
-        <li><a style={mystyle} href="Games-section">Top Games</a></li>
-        <li><a  style={mystyle} href="#Events-section">Live Events</a></li>
+        <li><a style={mystyle} href="Games-section"> <Link to="/HomeComp">Home</Link></a></li>
+        <li><a  style={mystyle} href="#Events-section"> <Link to="/TutorialComp">Tutorial</Link></a></li>
       </ul>
+      <Switch>
+        <Route path="/Home" component={Home}/>
+        <Route path="/TutorialComp" component={TutorialComp}/>
+          <Route path="*" component={Home}/>
+        </Switch>
+        </Router>
     </nav>
-  
   </div>
       <h1><b>TOP GAMES</b></h1>
-      <section id="Games-section">
-      <Game />
-      </section>
-      <h1><b>LIVE EVENTS</b></h1>
-     <section id="Events-section">
-     <Events />
-     </section>
+      
      <Footer />
     </div>
   
   );
 }
+}
+function HomeComp (){
+  return <div>
+    <Home />
+  </div>
+} 
+function TutorialComp(){
+  return <div>
+    <h1>Hello</h1>
+    <h2>Let's Go</h2>
+    <p>My name</p>
+  </div>
 }
 export default App;
