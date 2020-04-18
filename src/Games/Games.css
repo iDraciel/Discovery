@@ -1,9 +1,9 @@
 .flex-container {
-    margin:20px 85px 130px 60px;
+    margin:20px 85px 20px 60px;
     display: flex;
     flex-wrap: wrap;
   }
-  @media screen and (max-width:600px) {
+  @media screen and (max-width:768px) {
   .flex-container{
       margin:20px;
     display: block;
@@ -37,12 +37,20 @@
       transition-duration: 0.4s;
     }
   
-    @media screen and (max-width:600px){
+    @media screen and (max-width:768px){
       .button{
         margin: 2px;
         width: 100px;
       padding: 10px 10px;
       font-size: 10px;
+      }
+    }
+    @media screen and (min-width:769px) and (max-width:1230px){
+      .button{
+        margin: 4px;
+        width: 120px;
+      padding: 12px 12px;
+      font-size: 12px;
       }
     }
     .button2{
@@ -76,7 +84,7 @@
       height: auto;
       margin:10px;
     }
-      @media screen and (max-width: 600px) {
+      @media screen and (max-width: 768px) {
         .card{
         width: calc(100% - 20px);
         padding-bottom: 42px;
@@ -87,4 +95,4 @@
     }
    .button p{
       text-align: left;
-    }
+  }

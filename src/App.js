@@ -3,7 +3,6 @@ import Game from './Games/Games.js';
 import './App.css';
 import Footer from './footer/Footer.js';
 import Events from './Events/Events.js';
-import Logo from './Logo.png';
 class App extends Component{
 
   render() {
@@ -17,14 +16,13 @@ class App extends Component{
     <div className="App">
       <div className="navigation">
     <nav className="nav-bar">
-      <nav className="nav-pic">
-        <img src={Logo} alt="logo" className="nav-logo"/>
+     
       <ul className="nav-items">
         <li><a style={mystyle} href="Games-section">Top Games</a></li>
         <li><a  style={mystyle} href="#Events-section">Live Events</a></li>
       </ul>
     </nav>
-    </nav>
+  
   </div>
       <h1><b>TOP GAMES</b></h1>
       <section id="Games-section">

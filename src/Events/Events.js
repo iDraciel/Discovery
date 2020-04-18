@@ -10,9 +10,9 @@ import "./Events.css";
 class Events extends Component{
     render(){
         const fontstyle={
-            fontSize:"20px",
+            fontSize:"15px",
             color:"white",
-            margin:"15px"
+            margin:"20px"
               };
     return( 
            <div className="New-container">

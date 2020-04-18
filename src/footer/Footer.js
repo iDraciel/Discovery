@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Logo from './Logo.png';
 import Play from './Play.png';
 import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -13,14 +12,15 @@ class Footer extends Component{
         const leftstyle ={
         textDecoration:"none",
         color:"white",
-        fontStyle:"inter"
+        fontStyle:"inter",
+        fontSize:"26px"
         };
         
         return(
 <footer className="footer-bar">
 
 <p className="footer-links">
-  <img src={Logo} alt="logo" className="foot-logo"/>
+  
                 <a href="#" style={leftstyle} href="https://www.google.com">Home</a>
 
                 <a style={leftstyle} href ="https://www.youtube.com">Blog</a>
