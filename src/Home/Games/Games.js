@@ -4,6 +4,7 @@ import DOTA from './DOTA-Game.jpg';
 import PUBG from './PUBG-Game.jpg';
 import LOL from './LOL-Game.jpg';
 import './Games.css';
+import {Link} from 'react-router-dom';
 
 class Game extends Component{
        
@@ -18,12 +19,19 @@ class Game extends Component{
       <img src={CSGO} alt="CSGO" className="pic"/>
      <button className="button button2">Learn More</button>
      <button className="button button1">Play</button>
-       </div>
+       </div>>
+      
       <div className="card">
-      <img src={PUBG} alt="PUBG" className="pic"/>
-     <button className="button button2">Learn More</button>
-     <button className="button button1">Play</button>
+         <img src={PUBG} alt="PUBG" className="pic"/>
+         <Link to={{pathname:'/pubG',
+        state:{
+            videoSrc:"https://www.youtube.com/embed/YAxB3Or2-Sg"
+        }
+       }}>  
+       <button className="button button2">Learn More</button></Link>
+        <button className="button button1">Play</button>
        </div>
+       
      <div className="card">
       <img src={LOL} alt="LOL" className="pic"/>
      <button className="button button2">Learn More</button>
