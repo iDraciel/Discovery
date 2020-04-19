@@ -1,16 +1,18 @@
 import React from 'react';
-
+import Video from './Gamecard';
+import './GamePage.css';
 const gamePage = (props)=>{
-
+  console.log(props.location.state);
     return (
-        <div>
-            <h1>{props.match.params.id}</h1>
-            <iframe width="560" 
-            title="Tip and Tricks"
-            height="315" src={props.location.state.videoSrc}
-            frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-            allowFullScreen>
-            </iframe>
+        <div style={{textAlign:"center"}}>
+            <h1 style={{textAlign:"center",width:'80%'}}>{props.match.params.id}</h1>
+            <h3 style={{color:'white'}}>Brief Intro About Game</h3>
+            <h4 style={{color:'white'}}>One Video:Getting Started  Two video:Tips and Tricks Three video:Sensitivity</h4>
+            <div className="video-container">
+             <Video source={props.location.state.video1}></Video>
+             <Video source={props.location.state.video2}></Video>
+             <Video source={props.location.state.video3}></Video>
+             </div>
         </div>
     );
 }

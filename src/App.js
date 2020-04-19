@@ -4,7 +4,7 @@ import About from './About/About.js';
 import Nav from "./Navbar/Nav.js";
 import Home from "./Home/Home.js";
 import Footer from './footer/Footer.js';
-import Card from './Gamecard.js';
+import GamePage from './GamePage/GamePage';
 import  {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 
@@ -15,8 +15,8 @@ import  {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
       <Nav/>
     <Switch>
      <Route path="/home" exact component={Home}/>
-     <Route path="/Card" exact component={Card}/>
      <Route path="/about" component={About}/>
+     <Route path="/:id" component={GamePage}/>
      <Route path="*" component={Home}/>
      </Switch>
      

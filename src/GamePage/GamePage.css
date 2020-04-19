@@ -1,0 +1,30 @@
+.video-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.video-card{
+    border-radius: 5px;
+    margin: 15px auto;
+    box-shadow:5px 5px 5px rebeccapurple,-5px -5px 5px rebeccapurple ;
+    flex:0 calc(50%-20px);
+}
+
+.iframe{
+    border-radius:5px;
+    width:800px; 
+    height:345px;
+}
+
+@media(max-width:600px){
+    .iframe{
+        width:100%;
+        height:250px;
+    }
+    .video-card{
+        width:80%;
+        height:250px;
+    }
+}
