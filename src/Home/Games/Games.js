@@ -26,6 +26,11 @@ class Game extends Component{
       }}>
       <button className="button button2">Learn More</button>
       </Link>
+<<<<<<< HEAD
+=======
+      
+    
+>>>>>>> 9d3d71e65d12418d95bdfe32adebe725fa6c26d1
      <button className="button button1">Play</button>
     </div>
 
@@ -42,7 +47,11 @@ class Game extends Component{
      <button className="button button2">Learn More</button>
      </Link>
      <button className="button button1">Play</button>
+<<<<<<< HEAD
        </div>
+=======
+       </div>>
+>>>>>>> 9d3d71e65d12418d95bdfe32adebe725fa6c26d1
       
       <div className="card">
          <img src={PUBG} alt="PUBG" className="pic"/> 

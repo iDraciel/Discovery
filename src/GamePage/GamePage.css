@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-between;
     margin: 0 140px;
+<<<<<<< HEAD
 }
 .headName{
     color:white;
@@ -28,6 +29,12 @@
       margin-bottom: 7px;
     }
   }
+=======
+    border:1px solid white;
+    
+}
+
+>>>>>>> 9d3d71e65d12418d95bdfe32adebe725fa6c26d1
 .video-card{
     border-radius: 5px;
     margin: 15px auto;
@@ -41,6 +48,7 @@
     height:345px;
 }
 
+<<<<<<< HEAD
 @media(max-width:768px){
     .iframe{
         width:100%;
@@ -63,5 +71,26 @@
     .video-card{
         width:80%;
         height:340px;
+=======
+@media(max-width:600px){
+    .iframe{
+        width:100%;
+        height:auto;
+    }
+    .video-card{
+        width:80%;
+        height:auto;
+    }
+}
+
+@media(min-width:768px) and (max-width:1000px){
+    .iframe{
+        width:100%;
+        height:auto;
+    }
+    .video-card{
+        width:80%;
+        height:auto;
+>>>>>>> 9d3d71e65d12418d95bdfe32adebe725fa6c26d1
     }
 }
