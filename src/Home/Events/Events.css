@@ -73,8 +73,10 @@
   .text{
     font-size: 15px;
   }
-}
-    .cards {
+}    
+/* text */
+   
+   .cards {
       position:relative;
       transition: 0.3s;
       width: 50%;

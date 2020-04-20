@@ -72,7 +72,6 @@ class Game extends Component{
      </Link>
      <button className="button button1">Play</button>
        </div>
-
       
        
 </div>
