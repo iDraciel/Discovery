@@ -6,6 +6,7 @@ class Home extends Component {
         return(
          <div>
              <Game/>
+             <h1>LIVE EVENTS</h1>
              <Event/>
          </div>
         );

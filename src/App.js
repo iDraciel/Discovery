@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
+import ErrorPage from './Error/Error.js';
 import About from './About/About.js';
 import Nav from "./Navbar/Nav.js";
 import Home from "./Home/Home.js";
 import Footer from './footer/Footer.js';
-import Card from './Gamecard.js';
+import GamePage from './GamePage/GamePage.js';
 import  {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 
@@ -13,13 +14,16 @@ import  {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
        <Router>
        <div>
       <Nav/>
+      
     <Switch>
-     <Route path="/home" exact component={Home}/>
-     <Route path="/Card" exact component={Card}/>
+     <Route path="/" exact component={Home}/>
+     <Route path="/Home" exact component={Home}/>
      <Route path="/about" component={About}/>
-     <Route path="*" component={Home}/>
-     </Switch>
      
+     <Route path="/:id" component={GamePage}/>
+     <Route path="*" component={ErrorPage}/>
+     </Switch>
+    
      
       </div>
       <Footer />
