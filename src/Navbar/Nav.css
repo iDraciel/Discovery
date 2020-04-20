@@ -14,10 +14,8 @@
     float:right;
     font-size: 15px;
     background-color: rgba(123, 3, 152, 1);
-border: 1px solid rgba(112, 112, 112, 1);
-border-radius: 1px;
-width: 100%;
-margin-top: none;
+    width: 100%;
+    margin-top: none;
   } 
   nav ul{
     list-style-type:none;
