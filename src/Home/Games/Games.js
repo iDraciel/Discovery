@@ -3,6 +3,8 @@ import CSGO from './CS-Game.jpg';
 import DOTA from './DOTA-Game.jpg';
 import PUBG from './PUBG-Game.jpg';
 import LOL from './LOL-Game.jpg';
+import OVERWATCH from './Overwatch-Game.jpg';
+import SIEGE from './Siege-Game.jpg';
 import './Games.css';
 import {BrowserRouter as Router,Route ,Link} from 'react-router-dom';
 class Game extends Component{
@@ -72,7 +74,36 @@ class Game extends Component{
      </Link>
      <button className="button button1">Play</button>
        </div>
-      
+          
+     <div className="card">
+      <img src={OVERWATCH} alt="OVERWATCH" className="pic"/>
+      <Link to={{
+        pathname:'/OVERWATCH',
+        state:{
+          video1:"https://www.youtube.com/embed/0uyLRPmmYPk",
+          video2:"https://www.youtube.com/embed/z6lNQVpTBgI",
+          video3:"https://www.youtube.com/embed/TzfQvu98b_o"
+        }
+      }}>
+     <button className="button button2">Learn More</button>
+     </Link>
+     <button className="button button1">Play</button>
+       </div>
+
+       <div className="card">
+      <img src={SIEGE} alt="SIEGE" className="pic"/>
+      <Link to={{
+        pathname:'/SIEGE',
+        state:{
+          video1:"https://www.youtube.com/embed/0uyLRPmmYPk",
+          video2:"https://www.youtube.com/embed/z6lNQVpTBgI",
+          video3:"https://www.youtube.com/embed/TzfQvu98b_o"
+        }
+      }}>
+     <button className="button button2">Learn More</button>
+     </Link>
+     <button className="button button1">Play</button>
+       </div>
        
 </div>
 </div>
