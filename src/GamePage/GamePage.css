@@ -31,7 +31,7 @@
 .video-card{
     border-radius: 5px;
     margin: 15px auto;
-    box-shadow:5px 5px 5px rebeccapurple,-5px -5px 5px rebeccapurple ;
+    box-shadow:2px 2px 2px 2px rebeccapurple,-5px -5px 5px rebeccapurple ;
     flex:0 calc(50%-20px);
 }
 

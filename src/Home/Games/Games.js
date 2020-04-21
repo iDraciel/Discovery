@@ -28,7 +28,7 @@ class Game extends Component{
       }}>
       <button className="button button2">Learn More</button>
       </Link>
-     <button className="button button1">Play</button>
+     <button className="button button1"><a style={{textDecoration:"none",color:"white"}} href="https://store.steampowered.com/app/570/Dota_2/"> Play</a></button>
     </div>
 
        <div className="card">
@@ -43,7 +43,7 @@ class Game extends Component{
       }}>
      <button className="button button2">Learn More</button>
      </Link>
-     <button className="button button1">Play</button>
+     <button className="button button1"><a style={{textDecoration:"none",color:"white"}} href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/"> Play</a></button>
        </div>
       
       <div className="card">
@@ -57,7 +57,7 @@ class Game extends Component{
            }
          }}>
        <button className="button button2">Learn More</button> </Link>
-        <button className="button button1">Play</button>
+        <button className="button button1"><a style={{textDecoration:"none",color:"white"}} href="https://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/"> Play</a></button>
        </div>
        
      <div className="card">
@@ -72,7 +72,7 @@ class Game extends Component{
       }}>
      <button className="button button2">Learn More</button>
      </Link>
-     <button className="button button1">Play</button>
+     <button className="button button1"><a style={{textDecoration:"none",color:"white"}} href="https://play.euw.leagueoflegends.com/en_GB"> Play</a></button>
        </div>
           
      <div className="card">
@@ -87,7 +87,7 @@ class Game extends Component{
       }}>
      <button className="button button2">Learn More</button>
      </Link>
-     <button className="button button1">Play</button>
+     <button className="button button1"><a style={{textDecoration:"none",color:"white"}} href="https://us.shop.battle.net/en-us/product/overwatch?blzcmp=ow_buy_nav"> Play</a></button>
        </div>
 
        <div className="card">
@@ -102,7 +102,7 @@ class Game extends Component{
       }}>
      <button className="button button2">Learn More</button>
      </Link>
-     <button className="button button1">Play</button>
+     <button className="button button1"><a style={{textDecoration:"none",color:"white"}} href="https://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/"> Play</a></button>
        </div>
        
 </div>
