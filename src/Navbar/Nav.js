@@ -1,6 +1,5 @@
 import React,{Component} from 'react';
 import './Nav.css';
-import Logo from './Logo.svg';
 import {Link} from 'react-router-dom';
 class Nav extends Component {
     render(){
@@ -10,13 +9,12 @@ class Nav extends Component {
             color:" rgba(255, 255, 255, 1)"
               };
         return(
-            <div>
-            <div className="navigation">
+            <div style={{marginTop:'0'}}>
+     <div className="navigation">
     <nav className="nav-bar">
-    <img src={Logo} className="LogoNav"/>
+      <Link to="/"><div className="discovery">E-Sports Discovery</div></Link>
       <ul className="nav-items">
-        <li ><Link to="Home" style={mystyle}>Home</Link></li>
-        <li><Link to="About"style={mystyle}>Tutorial</Link></li>
+        <li><Link to="About"style={mystyle}>About</Link></li>
       </ul>
     </nav>
   </div>
