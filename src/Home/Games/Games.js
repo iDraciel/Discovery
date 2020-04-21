@@ -28,7 +28,7 @@ class Game extends Component{
       }}>
       <button className="button button2">Learn More</button>
       </Link>
-     <button className="button button1"><a style={{textDecoration:"none",color:"white"}} href="https://store.steampowered.com/app/570/Dota_2/"> Play</a></button>
+     <button className="button button1"><a style={{textDecoration:"none",color:"white"}} href="https://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/"> Play</a></button>
     </div>
 
        <div className="card">

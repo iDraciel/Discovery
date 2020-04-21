@@ -4,7 +4,7 @@ class About extends Component{
     render(){
         return(
 <div className="content">
-    <h1 style={{textAlign:"center",marginRight:"180px"}}> Welcome</h1>
+    <h1>Esports Discovery</h1>
      <div className="paragraph">
      <p style={{textAlign:"center"}}>E-Sports Discovery or simply E-Discovery is a site for people who are interested in Gaming but don't know where to start. 
     This site is for everyone who wants to know more about E-Sports and competitive gaming.Viewers can checkout Learn more so that their journey to the pro league can be much easier than others.</p>
