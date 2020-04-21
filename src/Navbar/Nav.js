@@ -9,11 +9,7 @@ class Nav extends Component {
             color:" rgba(255, 255, 255, 1)"
               };
         return(
-<<<<<<< HEAD
-            <div style={{marginTop:'-30px'}}>
-=======
-            <div style={{marginTop:'0'}}>
->>>>>>> 7b01785c4079cc5d4e3c89dab1bf090f324dea5c
+            <div style={{marginTop:'0px'}}>
      <div className="navigation">
     <nav className="nav-bar">
       <Link to="/"><div className="discovery">E-Sports Discovery</div></Link>
