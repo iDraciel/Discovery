@@ -34,7 +34,7 @@ class Game extends Component{
       <Link to={{
          pathname:'/CSGO',
          state:{
-          video1:"https://www.youtube.com/embed/eFab7sTSmEc",
+          video1:"https://www.youtube.com/embed/a1lK2CKKGzI",
           video2:"https://www.youtube.com/embed/-7lTNsgnjuo",
           video3:"https://www.youtube.com/embed/GidC3dWlVUA"
         }
@@ -49,7 +49,7 @@ class Game extends Component{
          <Link to={{
            pathname:"/PUBG",
            state:{
-             video1:"https://www.youtube.com/embed/N_BYaE-XW7E",
+             video1:"https://www.youtube.com/embed/JoadRyVIcTI",
              video2:"https://www.youtube.com/embed/N_C8u9UA4Zo",
              video3:"https://www.youtube.com/embed/MddquVCgYGY"
            }
