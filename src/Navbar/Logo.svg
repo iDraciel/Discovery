@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420.789" height="61" viewBox="0 0 420.789 61">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 51px;
+        font-family: Inter-ExtraBold, Inter;
+        font-weight: 800;
+        letter-spacing: 0.02em;
+      }
+
+      .cls-2 {
+        fill: #f5e940;
+      }
+
+      .cls-3 {
+        font-size: 28px;
+        font-family: Inter-BoldItalic, Inter;
+        font-weight: 700;
+        font-style: italic;
+        letter-spacing: -0.02em;
+      }
+    </style>
+  </defs>
+  <g id="Logo" transform="translate(-178 -5)">
+    <text id="eSports" class="cls-1" transform="translate(178 54)"><tspan x="0" y="0">ESPORTS</tspan></text>
+    <path id="Path_5" data-name="Path 5" class="cls-2" d="M443.776,4409.167h144.61l17.4-45.994H448.334l-16.574,45.994Z" transform="translate(-7 -4351.173)"/>
+    <text id="Discovery" class="cls-3" transform="translate(445 45)"><tspan x="0" y="0">Discovery</tspan></text>
+  </g>
+</svg>

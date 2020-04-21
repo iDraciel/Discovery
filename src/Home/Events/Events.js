@@ -16,7 +16,6 @@ class Events extends Component{
               };
     return( 
            <div className="New-container">
-
     <div className="cards">
     <img src={DOTA} alt="Avatar" className ="pic"/>
     <div className="content">

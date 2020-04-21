@@ -49,6 +49,7 @@
     font-family: 'Inter';
     width:calc(100% - 61px);
     margin-top: 16px; 
+    margin-left:9px;
   }
   .text{
     font-size: 18px;
@@ -62,15 +63,20 @@
         padding:5px;
       }
     }
+
   @media screen and (min-width:769px) and (max-width:1000px){
     p{
       font-size:15px;
       margin-top:16px;
+    margin-left: 5px;
     }
+  .text{
+    font-size: 15px;
   }
-
-    
-    .cards {
+}    
+/* text */
+   
+   .cards {
       position:relative;
       transition: 0.3s;
       width: 50%;
@@ -84,3 +90,22 @@
         width: calc(100% - 20px);
        }
       }
+
+
+      h1{
+        left: 0;
+       font-family: 'Inter';
+       font-size: 50px;
+       color: rgba(255, 255, 255, 1);
+       line-height: 130px;
+       margin-left: 140px;
+       }
+       
+       @media screen and (max-width: 768px){
+         h1{
+           text-align: center;
+           font-size: 20px;
+           line-height: 70px;
+           margin-left:25px;
+         }
+        }

@@ -1,10 +1,33 @@
  .navigation{
     margin-top:0;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 140px;
+    margin-right: 140px;
 
   }
-@media screen and (max-width:768px){
+  .LogoNav{
+    margin-top: 17px;
+    width:300px;
+  }
+@media screen and (max-width:400px){
+  .LogoNav{
+    width:120px;
+    margin-top:25px;
+  }
+}
+@media screen and (min-width:401px) and (max-width:768px){
+  .LogoNav{
+    width: 170px;
+    margin-top:28px;
+  }
+}
+  @media screen and (min-width:769px) and (max-width:1000px){
+    .LogoNav{
+      margin-top:22px;
+      width: 220px;
+    }
+  }
+
+@media screen and (max-width:840px){
   .navigation{
     margin-left: 0px;
     margin-right: 0px;
@@ -37,19 +60,18 @@ margin-top: none;
     cursor:pointer;
     padding:0.5em;
   }
-
-  @media screen and (max-width: 600px){
+@media screen and (max-width:400px){
+  .nav-items{
+    float:right;
+    margin-top:15px;
+    font-size:14px;
+  }
+}
+  @media screen and (min-width:401px) and (max-width: 768px){
     .nav-items{
     float:right;
-   margin-top:20px;
-   font-size: 10px;
+   margin-top:18px;
+   font-size: 18px;
     }
   }
-  @media screen and (min-device-width: 601px) and  (max-device-width: 768px){
-    .nav-items{
-    float:right;
-   margin-top:20px;
-   font-size: 24px;
-    }
-  
-  }
+ 

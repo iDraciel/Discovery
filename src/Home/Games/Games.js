@@ -11,8 +11,9 @@ class Game extends Component{
     
   return(
     <div>
-      <h1>Top Games</h1>
+      <h1>TOP GAMES</h1>
     <div className="game-content"> <div className="flex-container">
+          
           <div className="card">
       <img src={DOTA} alt="DOTA" className="pic"/>
       <Link to={{
@@ -25,10 +26,9 @@ class Game extends Component{
       }}>
       <button className="button button2">Learn More</button>
       </Link>
-      
-    
      <button className="button button1">Play</button>
     </div>
+
        <div className="card">
       <img src={CSGO} alt="CSGO" className="pic"/>
       <Link to={{
@@ -42,7 +42,7 @@ class Game extends Component{
      <button className="button button2">Learn More</button>
      </Link>
      <button className="button button1">Play</button>
-       </div>>
+       </div>
       
       <div className="card">
          <img src={PUBG} alt="PUBG" className="pic"/> 
@@ -72,10 +72,10 @@ class Game extends Component{
      </Link>
      <button className="button button1">Play</button>
        </div>
-       </div>
-       </div>
-
-
+      
+       
+</div>
+</div>
        </div>
   );
 }
