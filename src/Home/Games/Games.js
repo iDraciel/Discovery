@@ -80,9 +80,9 @@ class Game extends Component{
       <Link to={{
         pathname:'/OVERWATCH',
         state:{
-          video1:"https://www.youtube.com/embed/0uyLRPmmYPk",
-          video2:"https://www.youtube.com/embed/z6lNQVpTBgI",
-          video3:"https://www.youtube.com/embed/TzfQvu98b_o"
+          video1:"https://www.youtube.com/embed/q_lrilSEqOE",
+          video2:"https://www.youtube.com/embed/q_lrilSEqOE",
+          video3:"https://www.youtube.com/embed/IbHkbbdz0-I"
         }
       }}>
      <button className="button button2">Learn More</button>
@@ -95,9 +95,9 @@ class Game extends Component{
       <Link to={{
         pathname:'/SIEGE',
         state:{
-          video1:"https://www.youtube.com/embed/0uyLRPmmYPk",
-          video2:"https://www.youtube.com/embed/z6lNQVpTBgI",
-          video3:"https://www.youtube.com/embed/TzfQvu98b_o"
+          video1:"https://www.youtube.com/embed/VTP3Iadjw38",
+          video2:"https://www.youtube.com/embed/1tdlVFxUqgM",
+          video3:"https://www.youtube.com/embed/R_DyCKnLlyA"
         }
       }}>
      <button className="button button2">Learn More</button>
